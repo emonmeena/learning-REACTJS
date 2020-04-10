@@ -1,0 +1,13 @@
+document.getElementbyId("id").innerHTML
+document.getElementbyId("id").style
+<br> is used to break the line
+redeclaring a variable will not destroy the value of variable
+to find the type of a variable we do typeof
+if string stores numbers then, we can use maths in them except '+' operator
+NaN is Not a Number
+but is of type number
+.toString(base) converts any number in that base and returns in sttring formate
+by using String(other data type ) we can convert into string or omitted toString can also be used
+
+text = "<a href='https://wwf.org'>LINK NAME</a>"; ---> this Syntax gives the link
+var declares variable hoisted to the top
