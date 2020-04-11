@@ -6,7 +6,7 @@ class Myform extends React.Component {
         super(props);
         this.state = {
         Remark: "Excellent",
-        description: 'The content of a textarea goes in the value attribute',
+        description: 'The content of a text Area goes in the value attribute',
         username: '', 
         age: null,
         errormessage: ''
@@ -58,9 +58,10 @@ class Myform extends React.Component {
       /> {this.state.errormessage}
                <br/><br/>  
                {myRemark}
-               <textarea value={this.state.description} />     
+               <br/><br/>
+               <textarea value={this.state.description} style={{backgroundColor: 'skyblue'}} />  <br/><br/>   
           <input type='submit'/>
-          <p></p>
+          
         </form>
       );
     }

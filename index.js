@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import Android from './App.js';
 import Car from './index2'
 import Myform from './ReactForm'
+import './App.css'
+
 
 
 
@@ -25,7 +27,8 @@ render() {
 
 class WebD2 extends React.Component{
   render(){
-    const tutorialsWatchedinPercent = 60;
+
+    const tutorialsWatchedinPercent = 80;
     return (
     <div align = "center">
       {/* please notice that we haven't used <WebD/> here seperately because it is autmatically called when we are calling the below line */}

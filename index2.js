@@ -29,11 +29,17 @@ class Car extends React.Component {
     // }
 
     render(){
+        const mystyle = {
+            color: "white",
+            backgroundColor: "DodgerBlue",
+            padding: "10px",
+            fontFamily: "Arial"
+          };
         return (
             <div align="center">
                 
-                <h1>My {this.state.brand+" "+this.state.name}</h1>
-                <p>
+                <h1 >My {this.state.brand+" "+this.state.name}</h1>
+                <p style={mystyle}>
                     it is a model {this.state.model} , shinning in {this.state.color}
                 </p>
                 
